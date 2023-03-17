@@ -4,12 +4,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void main(void)
 {
 	char i = '0';
 
 	for (i = '0'; i <= '9'; i++)
 	{
 		putchar(i);
+	}
 	return (0);
 }
