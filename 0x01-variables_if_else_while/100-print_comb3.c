@@ -9,22 +9,22 @@ int main(void)
 	int i = 0;
 	int j = 0;
 
-        for (i = 0; i <= 9; i++)
-        	{
-			for ( j = 0; j <= 9; j++)
+	for (i = 0; i <= 9; i++)
+	{
+		for ( j = 0; j <= 9; j++)
+		{
+			if (i != j && i < j)
 			{
-				if (i != j && i < j)
-				{
-                			putchar('0' + i);
-					putchar('0' + j);
-				}
-                		if (i != j && i < j && i != 8)
-                		{
-                        		putchar(',');
-                        		putchar(' ');
-                		}
+				putchar('0' + i);
+				putchar('0' + j);
 			}
-        	}
-        putchar('\n');
-        return (0);
+			if (i != j && i < j && i != 8)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
