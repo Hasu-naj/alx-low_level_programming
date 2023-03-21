@@ -12,7 +12,7 @@ int _abs(int n)
 	{
 		n = (-1) * n;
 	}
-	_putchar('0' + n);
+/*	_putchar('0' + n); */
 	_putchar('\n');
 	return (1);
 }
