@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- *fizz_buzz - prints the numbers from 1 to 100
+ *main - prints the numbers from 1 to 100
  *
  * Return: Always 0.
  */
-void main(void)
+int main(void)
 {
 	int n;
 
@@ -29,4 +29,5 @@ void main(void)
 		}
 	}
 	printf("\n");
+	return (0);
 }
