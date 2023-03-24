@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-void fizz_buzz(void)
+void main(void)
 {
 	int n;
 
