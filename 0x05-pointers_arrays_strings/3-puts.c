@@ -13,8 +13,8 @@ void _puts(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		printf("%s", str[i]);
+		_putchar("%s", str[i]);
 	}
-	printf("\n");
+	_putchar("\n");
 	return (0);
 }
