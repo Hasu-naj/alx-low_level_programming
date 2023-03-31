@@ -2,10 +2,10 @@
 
 /**
  * rot13 - encodes a string using rot13
- * @s: pointer to input string.
+ * @str: pointer to input string.
  * Return: Returns pointer to rot13 string.
  */
-char *rot13(char *s)
+char *rot13(char *str)
 {
 	int i, j;
 
