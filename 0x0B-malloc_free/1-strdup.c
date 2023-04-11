@@ -16,25 +16,19 @@ char *_strdup(char *str)
 	char *ar;
 
 	if (str == NULL)
-	{
 		return (NULL);
-	}
+
 	i = 0;
 	while (str[i] != '\0')
-	{
-		ar = malloc(sizeof(char) * (i + 1));
-			i++;
-	}
+		i++;
+	
+	ar = malloc(sizeof(char) * (i + 1));
+
 	if (ar == 0)
-	{
 		return (NULL);
-	}
-	else
-	{
-		for (m = 0; str[m]; m++)
-		{
-			ar[m] = str[m];
-		}
-		return (ar);
-	}
+	
+	for (m = 0; str[m]; m++)
+		ar[m] = str[m];
+	
+	return (ar);
 }
